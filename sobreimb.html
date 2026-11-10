@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Maria Eduarda — desenvolvimento do Projeto Imb">
+    <title>Projeto IMB Educação</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header>
+    <a href="index.html" class="logo">duda<span>.zip</span> ✦</a>
+    <nav aria-label="Principal">
+      <a href="index.html#projetos">Projetos</a>
+      <a href="index.html#sobre">Sobre mim</a>
+      <a href="index.html#contato">Vamos conversar ↗</a>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="case-study">
+    <section class="section case-intro" aria-labelledby="titulo">
+      <a class="case-back" href="index.html#projetos">← Voltar aos projetos</a>
+      <span class="eyebrow">✦ PROJETO PRINCIPAL · EM DESENVOLVIMENTO</span>
+      <h1 id="titulo">IMB <span>Educação</span><em>.</em></h1>
+      <p class="case-subtitle">Uma plataforma de ensino construída do zero.</p>
+      <p class="case-description">O IMB Educação é uma plataforma de cursos online que começa pela Radiologia e foi planejada para receber outras áreas da Medicina. Estou desenvolvendo o projeto para um cliente, com identidade visual própria e autonomia para vender e administrar os cursos.</p>
+      <div class="feature-tech" aria-label="Tecnologias do projeto">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Laravel</span><span>MySQL</span><span>Git/GitHub</span>
+      </div>
+    </section>
+
+    <section class="section case-section" aria-labelledby="funciona">
+      <span class="eyebrow">01 / A PLATAFORMA</span>
+      <h2 id="funciona">Como o IMB foi pensado<span class="star">.</span></h2>
+      <div class="case-grid">
+        <article class="project card-body">
+          <h3>Site público</h3>
+          <p>Página inicial, páginas de cursos, blog e contato. O fluxo também prevê login, cadastro e recuperação de senha.</p>
+        </article>
+        <article class="project card-body">
+          <h3>Área do aluno</h3>
+          <p>O painel planejado reúne cursos adquiridos, aulas em vídeo, acompanhamento de progresso, materiais, certificados, perfil e chat com professores.</p>
+        </article>
+      </div>
+      <p class="school-note"><strong>Acesso liberado após o pagamento</strong> No fluxo planejado, o aluno escolhe o curso, entra na conta e faz o pagamento. Após a confirmação, o backend libera o curso para aquela conta e verifica a autorização a cada solicitação de aula, inclusive quando alguém abre o endereço direto.</p>
+    </section>
+
+    <section class="section case-section" aria-labelledby="construcao">
+      <span class="eyebrow">02 / MINHA CONTRIBUIÇÃO</span>
+      <h2 id="construcao">O que já construí<span class="star">.</span></h2>
+      <div class="case-grid">
+        <article class="project card-body">
+          <h3>Interface pública</h3>
+          <p>Implementei o front-end em HTML, CSS e JavaScript, com barra de navegação, rodapé e cabeçalho com metadados reutilizáveis. Organizei o CSS em um arquivo base e estilos específicos por página.</p>
+        </article>
+        <article class="project card-body">
+          <h3>Identidade visual</h3>
+          <p>Usei o azul-marinho e o dourado do logotipo como ponto de partida para criar a identidade visual do IMB.</p>
+        </article>
+        <article class="project card-body">
+          <h3>Segurança desde a base</h3>
+          <p>Configurei o bloqueio da listagem de diretórios, uma página de erro com status HTTP 404 e validação com proteção antispam no formulário de contato.</p>
+        </article>
+        <article class="project card-body">
+          <h3>Modelagem do banco</h3>
+          <p>Modelei 15 tabelas antes de criar o banco, definindo chaves, índices e relacionamentos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section case-section" aria-labelledby="processo">
+      <span class="eyebrow">03 / POR TRÁS DO CÓDIGO</span>
+      <h2 id="processo">Como desenvolvo o IMB<span class="star">.</span></h2>
+      <ol class="case-process">
+        <li><strong>Planejo antes de programar.</strong> Defino requisitos, escopo, fluxos e modelo de dados antes de criar as telas.</li>
+        <li><strong>Desenvolvo em etapas.</strong> Comecei pelo front-end e organizei o restante em fases, do banco de dados à entrega dos vídeos.</li>
+        <li><strong>Valido cada mudança.</strong> Leio os arquivos para entender como funcionam, testo antes de seguir e renomeio versões antigas antes de removê-las.</li>
+        <li><strong>Reavalio as escolhas técnicas.</strong> Comecei com Laravel, experimentei PHP puro e voltei ao Laravel enquanto o backend ainda estava no planejamento. Nesse momento, a troca exigia pouco retrabalho e fazia sentido para a evolução da plataforma e para o meu aprendizado.</li>
+      </ol>
+    </section>
+
+    <section class="section case-section" aria-labelledby="proximas">
+      <span class="eyebrow">04 / PRÓXIMA FASE</span>
+      <h2 id="proximas">O que vem a seguir<span class="star">.</span></h2>
+      <p>As próximas etapas incluem autenticação, dashboard do aluno, player de vídeo protegido, pagamentos com liberação automática de cursos, certificados, painel administrativo e publicação.</p>
+      <div class="case-launch school-note">
+        <strong>Site oficial do IMB Educação</strong>
+        <p>O link será disponibilizado aqui após a publicação da plataforma.</p>
+      </div>
+      <a class="btn light" href="index.html#projetos">Voltar aos projetos <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year">2026</span> Duda.zip · Feito de ideias &amp; pixels.</span>
+    <a href="#">Voltar ao início ↑</a>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
